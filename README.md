@@ -79,7 +79,7 @@ autoapi-example-angular/
 │   ├── index.html         # HTML entry point
 │   ├── main.ts            # Application entry
 │   └── styles.scss        # Global styles
-├── .autoapirc.json        # AutoAPI configuration
+├── .apisorceryrc.json        # AutoAPI configuration
 ├── angular.json           # Angular CLI configuration
 ├── proxy.conf.json        # Development proxy configuration
 ├── tsconfig.json          # TypeScript configuration
@@ -88,7 +88,7 @@ autoapi-example-angular/
 
 ## API Configuration
 
-The application uses AutoAPI to generate type-safe API client code. Configuration is in `.autoapirc.json`:
+The application uses AutoAPI to generate type-safe API client code. Configuration is in `.apisorceryrc.json`:
 
 ```json
 {

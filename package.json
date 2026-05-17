@@ -14,7 +14,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "format": "prettier --write src/",
-    "swagger": "autoapi generate && prettier --write src/apis/auto"
+    "swagger": "apisorcery generate && prettier --write src/apis/auto"
   },
   "dependencies": {
     "@angular/animations": "^18.2.0",
